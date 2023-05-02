@@ -1,0 +1,3 @@
+To access the Pet Adoption Wesite Project, please open the following folder open "homePage.php", which will take you to the home page of the website. Please note that this website works best on a Windows PC using Microsoft Edge.
+For the best experience, please use a private (Incognito) window, or clear your cookies to avoid any issues.
+Please note that any passwords used to create/access acounts on this website can be seen by the website developer and others. Please use fake passwords. 

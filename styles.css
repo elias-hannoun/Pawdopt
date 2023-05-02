@@ -1,0 +1,565 @@
+    body {
+        background: #f9c9cb;
+        margin: 0;
+        min-width: 800px;
+    }
+
+
+
+    .header {
+        background: #0F088B;
+        height: 190px;
+        width: auto;
+        padding-inline: 15px;
+        padding-block-end: 20px;
+        /* padding-block-start: 0; */
+        /* padding-block-end: 0; */
+    }
+
+    #logo {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        height: 150px;
+        width: 150px;
+        float: left;
+    }
+
+    #welcome_message {
+        font-weight: bold;
+        font-size: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* display: inline; */
+        vertical-align: middle;
+        color: white;
+        /* padding-top: 50%; */
+        padding-block-start: 60px;
+        margin: auto;
+    }
+
+    #time {
+        color: white;
+        font-size: 20px;
+
+    }
+
+
+    .side_menu {
+        background: #8bd6f4;
+        top: 0;
+        left: 0;
+        width: min-content;
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        float: left;
+    }
+
+    .navbar {
+        padding-left: 35px;
+    }
+
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: fit-content;
+    }
+
+    li.active a {
+        background-color: rgb(12, 0, 248);
+        color: white;
+    }
+
+    .side_menu_list {
+        background-color: #dcd9d9;
+        width: 250px;
+        font-size: 18px;
+    }
+
+    .a2 {
+        display: block;
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    .navbar li .a2:hover {
+        background-color: #0F088B;
+        color: white;
+    }
+
+    .main_body {
+        background-color: #A7E2F9;
+        width: 100%;
+        height: auto;
+        float: right;
+        padding-inline: 10px;
+        padding-block: 10px;
+    }
+
+    .footer {
+        background-color: #02ACEF;
+        height: auto;
+        text-align: center;
+        /* bottom: 0; */
+        /* position: fixed; */
+    }
+
+    .footer_p {
+        margin: 0;
+        padding: 0;
+        width: fit-content;
+    }
+
+    .footer_first_line {
+        font-weight: 700;
+        font-size: larger;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .footer_other_lines {
+        text-decoration: underline;
+        width: fit-content;
+        margin: auto;
+        /* color: -webkit-link; */
+
+    }
+
+    .body_and_menu {
+        display: flex;
+        /* margin-bottom: 130px; */
+    }
+
+    .btn_general {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px 10px 20px 10px;
+        border: 0;
+        background-color: #eb3844;
+        color: #f8eeef;
+        font-weight: normal;
+        font-size: larger;
+        transition: 0.5s;
+        position: absolute;
+        right: 25px;
+        top: 155px;
+    }
+
+    .btn_general:hover {
+        width: 110px;
+        height: 35px;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #C80E19;
+        color: #f8eeef;
+        font-weight: bold;
+        font-size: larger;
+        transition: 0.1s;
+    }
+
+    .btn_logOut{
+        color: white;
+        text-decoration:none;
+    }
+
+
+
+    /* HOME PAGE START */
+
+    .left_body_home {
+        float: left;
+        height: 100%;
+        width: 70%;
+        text-align: center;
+    }
+
+    .right_body_home {
+        float: right;
+        height: 100%;
+        width: 30%;
+        overflow: hidden;
+        justify-content: center;
+
+    }
+
+    #first_dog_cat_img {
+        width: 100%;
+        height: min-content;
+        display: block;
+        padding: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    #second_dog_cat_img {
+        width: 100%;
+        height: min-content;
+        display: block;
+        padding: 0;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    #dog1 {
+        width: 80%;
+        height: min-content;
+        display: block;
+        padding: 0;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    #cat1 {
+        width: 80%;
+        height: min-content;
+        display: block;
+        padding: 0;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .home_welcome_message {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: cursive;
+        padding: 0;
+        margin: 0;
+    }
+
+    .home_paragraph {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+
+
+    /* HOME PAGE END */
+
+    /* BROWSE ABVAILABLE PETS START */
+
+    .grid_container {
+        display: grid;
+        justify-items: center;
+        gap: 25px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .browsePetsDivs {
+        display: inline-block;
+        background-color: #76d3f8;
+        width: 80%;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 20px;
+        text-align: center;
+        border-radius: 16%;
+        flex: auto;
+        padding: auto;
+    }
+
+    .browsePetsImg {
+        width: 80%;
+        border-radius: 15%;
+    }
+
+    .btn_interested {
+        width: 120px;
+        height: 35px;
+        border-radius: 20px 10px 20px 10px;
+        border: 0;
+        background-color: #332bbe;
+        color: #f8eeef;
+        font-weight: normal;
+        font-size: larger;
+        transition: 0.5s;
+    }
+
+    .btn_interested:hover {
+        width: 110px;
+        height: 35px;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #0F088B;
+        font-size: larger;
+        transition: 0.2s;
+    }
+
+
+    /* BROWSE ABVAILABLE PETS END */
+
+
+    /* FIND/GIVE AWAY DOG OR CAT PAGES START */
+
+    .find_pet_div {
+        text-align: center;
+        padding-block: 10px;
+        padding-inline: 10px;
+    }
+
+    .forms {
+        width: 60%;
+        background-color: #dcd9d9;
+        padding: 20px;
+        align-self: center;
+        margin-inline: auto;
+        border-radius: 50px;
+    }
+
+
+    .form_text {
+        font-size: larger;
+    }
+
+    .form_questions {
+        font-weight: bold;
+    }
+
+    .form_txt_fld {
+        height: 20px;
+        border-radius: 10px;
+        border: 1px solid #0F088B;
+        background-color: #f8eeef;
+        color: #0F088B;
+
+    }
+
+    .form_txt_fld:focus {
+        background-color: #fae6e7;
+        border: 2px solid #0F088B;
+
+    }
+
+    #comments_input {
+        min-height: 50px;
+        max-height: 150px;
+        max-width: 180px;
+        min-width: 180px;
+        min-width: none;
+    }
+
+    .radio_btn {
+        cursor: pointer;
+    }
+
+    .checkbox {
+        cursor: pointer;
+    }
+
+
+    .form_select_menu {
+        height: 25px;
+        border-radius: 10px;
+        border: 1px solid #0F088B;
+        background-color: #fae6e7;
+        color: #0F088B;
+        font-weight: bolder;
+        cursor: pointer;
+
+    }
+
+    .submit_btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px 10px 20px 10px;
+        border: 0;
+        background-color: #332bbe;
+        color: #f8eeef;
+        font-weight: normal;
+        font-size: larger;
+        transition: 0.5s;
+
+    }
+
+    .submit_btn:hover {
+        width: 110px;
+        height: 35px;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #0F088B;
+        font-weight: bold;
+        font-size: larger;
+        transition: 0.1s;
+    }
+
+    .reset_btn {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px 10px 20px 10px;
+        border: 0;
+        background-color: #eb3844;
+        color: #f8eeef;
+        font-weight: normal;
+        font-size: larger;
+        transition: 0.5s;
+
+    }
+
+    .reset_btn:hover {
+        width: 110px;
+        height: 35px;
+        background-color: #C80E19;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: larger;
+        transition: 0.1s;
+    }
+
+    /* FIND/GIVE AWAY DOG OR CAT PAGES END */
+
+    /* DOG & CAT CARE PAGES START */
+    .header_dog_cat_care {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .header_2_dog_cat_care {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .header_3_dog_cat_care {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .paragraph_dog_cat_care {
+        font-size: 18px;
+    }
+
+    .line_dog_cat_care {
+        border-color: #0F088B;
+        width: 100%;
+    }
+
+    .line_2_dog_cat_care {
+        border-color: #0F088B;
+        width: 130px;
+        margin-left: 0;
+    }
+
+    .link_dog_cat_care {
+        text-decoration: underline;
+        color: #0F088B;
+        font-size: 18px;
+    }
+
+    .list_dog_cat_care {
+        background-color: transparent;
+        width: auto;
+        font-size: 18px;
+        width: 80%;
+        margin-left: 35px;
+    }
+
+
+    /* DOG & CAT CARE PAGES END */
+
+
+    /* CREATE ACCOUNT & SIGN IN PAGES START */
+
+    .create_account_div {
+        text-align: center;
+        padding-block: 10px;
+        padding-inline: 10px;
+    }
+
+    .form_txt_fld2 {
+        height: 25px;
+        width: 200px;
+
+        border-radius: 10px;
+        border: 1px solid #0F088B;
+        background-color: #f8eeef;
+        color: #0F088B;
+        font-size: 17px;
+
+    }
+
+    .form_txt_fld2:focus {
+        background-color: #fae6e7;
+        border: 2px solid #0F088B;
+    }
+
+    .form_txt_fld2::placeholder {
+        text-align: center;
+    }
+
+    .form_txt_fld2:focus::placeholder {
+        color: #0F088B;
+        text-align: center;
+    }
+
+    input[type='password'] {
+        font-family: Verdana;
+        letter-spacing: 0.125em;
+    }
+
+    .submit_btn_create_account {
+        background-color: #76d3f8;
+        color: black;
+        border: 2px solid #0F088B;
+        width: auto;
+    }
+
+    .submit_btn_create_account:hover {
+        background-color: #41bdee;
+        color: rgb(6, 6, 54);
+        font-weight: bold;
+        border: #02ACEF;
+        width: auto;
+
+    }
+
+    .submit_btn_signIn_account {
+        background-color: #76d3f8;
+        color: black;
+        border: 2px solid #0F088B;
+        width: auto;
+    }
+
+    .submit_btn_signIn_account:hover {
+        background-color: #41bdee;
+        color: rgb(6, 6, 54);
+        font-weight: bold;
+        border: #02ACEF;
+        width: auto;
+    }
+
+    .forms2 {
+        width: 50%;
+        padding: 20px;
+    }
+
+
+    /* CREATE ACCOUNT & SIGN IN PAGES END */
+
+
+    /* CONTACT US PAGE START */
+
+    .contact_us_div {
+        text-align: center;
+
+
+    }
+
+    .par_header {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    /* CONTACT US PAGE END */
+
+    /* REFERENCES PAGE START */
+    .references_div {
+        text-align: left;
+    }
+
+    .sources_link_txt {
+        text-decoration: underline;
+        color: #eb3844;
+        text-decoration-color: #eb3844;
+        width: fit-content;
+    }
+
+    /* REFERENCES PAGE END */

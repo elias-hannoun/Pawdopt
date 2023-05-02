@@ -1,0 +1,9 @@
+1:caline:dog:Golden_Retriever:1-2:Male:yes:no:no:no:no:loves walk:caline@email.com
+2:caline:dog:Labrador:9-12:Female:no:yes:no:no:no:cute:222@gmail.com
+3:ee:dog:German_Shepherd:1-2:Male:yes:yes:yes:no:no:Cool Dog!:t@h.com
+4:ee:dog:German_Shepherd:1-2:Male:yes:yes:yes:no:no:Cool Dog!:t@h.com
+5:ee:cat:Persian_Cat:3-5:Male:no:yes:no:yes:no:comment 2:elias@yahoo.ca
+6:ee:dog:Labrador:6-8:Female:yes:yes:no:no:no:love to run:a@w.com
+7:ee:dog:Pomeranian:9-12:Male:yes:yes:no:yes:no:comment 3:email@email.com
+8:ee:cat:American_Shorthair:1-2:Male:yes:no:no:yes:no:loves water:w@email.ca
+9:ee:cat:Labrador:1-2:Male:yes:yes:no:no:no:test4:test@email.com
